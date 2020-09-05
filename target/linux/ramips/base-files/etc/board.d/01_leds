@@ -453,6 +453,10 @@ routerpi1)
 	ucidef_set_led_netdev "internet" "internet" "$boardname:blue:internet" "eth0.2"
 	set_wifi_led "$boardname:blue:wlan2g"
 	;;
+routerpi1_32M)
+	ucidef_set_led_netdev "internet" "internet" "$boardname:blue:internet" "eth0.2"
+	set_wifi_led "$boardname:blue:wlan2g"
+	;;
 esac
 
 board_config_flush

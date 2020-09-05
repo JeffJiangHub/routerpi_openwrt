@@ -501,3 +501,10 @@ define Device/routerpi1
   DEVICE_TITLE := Router Pi 1
 endef
 TARGET_DEVICES += routerpi1
+
+define Device/routerpi1_32M
+  DTS := routerPi1_32M
+  IMAGE_SIZE := $(ralink_default_fw_size_32M)
+  DEVICE_TITLE := Router Pi 1 32M
+endef
+TARGET_DEVICES += routerpi1_32M

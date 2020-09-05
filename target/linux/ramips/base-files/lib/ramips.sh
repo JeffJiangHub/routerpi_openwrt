@@ -709,6 +709,9 @@ ramips_board_detect() {
 	*"Router Pi 1")
 		name="routerpi1"
 		;;
+	*"Router Pi 1 32M")
+		name="routerpi1_32M"
+		;;
 	esac
 
 	# use generic board detect if no name is set
